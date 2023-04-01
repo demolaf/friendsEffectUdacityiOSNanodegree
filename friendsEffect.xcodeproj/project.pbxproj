@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E13CD4629D5CF290069B19B /* playsoundseffectviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E13CD4529D5CF290069B19B /* playsoundseffectviewcontroller-audio.swift */; };
 		7EE8EA5D29D4EA4B005F32E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8EA5C29D4EA4B005F32E8 /* AppDelegate.swift */; };
 		7EE8EA5F29D4EA4B005F32E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8EA5E29D4EA4B005F32E8 /* SceneDelegate.swift */; };
-		7EE8EA6129D4EA4B005F32E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8EA6029D4EA4B005F32E8 /* ViewController.swift */; };
+		7EE8EA6129D4EA4B005F32E8 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8EA6029D4EA4B005F32E8 /* RecordViewController.swift */; };
 		7EE8EA6429D4EA4B005F32E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE8EA6229D4EA4B005F32E8 /* Main.storyboard */; };
 		7EE8EA6629D4EA4B005F32E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EE8EA6529D4EA4B005F32E8 /* Assets.xcassets */; };
 		7EE8EA6929D4EA4B005F32E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE8EA6729D4EA4B005F32E8 /* LaunchScreen.storyboard */; };
+		7EEFD35029D4F7F3005363B6 /* PlaySoundsEffectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEFD34F29D4F7F3005363B6 /* PlaySoundsEffectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E13CD4529D5CF290069B19B /* playsoundseffectviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundseffectviewcontroller-audio.swift"; sourceTree = "<group>"; };
 		7EE8EA5929D4EA4B005F32E8 /* friendsEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = friendsEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE8EA5C29D4EA4B005F32E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EE8EA5E29D4EA4B005F32E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7EE8EA6029D4EA4B005F32E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EE8EA6029D4EA4B005F32E8 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
 		7EE8EA6329D4EA4B005F32E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EE8EA6529D4EA4B005F32E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EE8EA6829D4EA4B005F32E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EE8EA6A29D4EA4B005F32E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EEFD34F29D4F7F3005363B6 /* PlaySoundsEffectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsEffectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E13CD4729D627DF0069B19B /* playSoundsEffectViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7E13CD4529D5CF290069B19B /* playsoundseffectviewcontroller-audio.swift */,
+				7EEFD34F29D4F7F3005363B6 /* PlaySoundsEffectViewController.swift */,
+			);
+			path = playSoundsEffectViewController;
+			sourceTree = "<group>";
+		};
+		7E13CD4829D627EF0069B19B /* recordViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7EE8EA6029D4EA4B005F32E8 /* RecordViewController.swift */,
+			);
+			path = recordViewController;
+			sourceTree = "<group>";
+		};
 		7EE8EA5029D4EA4B005F32E8 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +77,40 @@
 		7EE8EA5B29D4EA4B005F32E8 /* friendsEffect */ = {
 			isa = PBXGroup;
 			children = (
+				7EEFD35329D4F894005363B6 /* controller */,
+				7EEFD35229D4F87C005363B6 /* view */,
+				7EEFD35129D4F86F005363B6 /* model */,
 				7EE8EA5C29D4EA4B005F32E8 /* AppDelegate.swift */,
 				7EE8EA5E29D4EA4B005F32E8 /* SceneDelegate.swift */,
-				7EE8EA6029D4EA4B005F32E8 /* ViewController.swift */,
-				7EE8EA6229D4EA4B005F32E8 /* Main.storyboard */,
 				7EE8EA6529D4EA4B005F32E8 /* Assets.xcassets */,
 				7EE8EA6729D4EA4B005F32E8 /* LaunchScreen.storyboard */,
 				7EE8EA6A29D4EA4B005F32E8 /* Info.plist */,
 			);
 			path = friendsEffect;
+			sourceTree = "<group>";
+		};
+		7EEFD35129D4F86F005363B6 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		7EEFD35229D4F87C005363B6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7EE8EA6229D4EA4B005F32E8 /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		7EEFD35329D4F894005363B6 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E13CD4829D627EF0069B19B /* recordViewController */,
+				7E13CD4729D627DF0069B19B /* playSoundsEffectViewController */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +184,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EE8EA6129D4EA4B005F32E8 /* ViewController.swift in Sources */,
+				7EE8EA6129D4EA4B005F32E8 /* RecordViewController.swift in Sources */,
+				7E13CD4629D5CF290069B19B /* playsoundseffectviewcontroller-audio.swift in Sources */,
+				7EEFD35029D4F7F3005363B6 /* PlaySoundsEffectViewController.swift in Sources */,
 				7EE8EA5D29D4EA4B005F32E8 /* AppDelegate.swift in Sources */,
 				7EE8EA5F29D4EA4B005F32E8 /* SceneDelegate.swift in Sources */,
 			);
